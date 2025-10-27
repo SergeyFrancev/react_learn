@@ -1,0 +1,41 @@
+/* @tailwind base; 
+@tailwind components; 
+@tailwind utilities; */
+
+/* @import "tailwindcss/preflight"; */
+@import "tailwindcss";
+
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+@theme {
+  --color-orange-100: #28231f;
+  --color-orange-200: #2e261f;
+  --color-orange-300: #412e1c;
+  --color-orange-400: #533009;
+  --color-orange-500: #5f380d;
+  --color-orange-600: #6c451b;
+  --color-orange-700: #815427;
+  --color-orange-800: #a1682c;
+  --color-orange-900: #f59e42;
+  --color-orange-1000: #e99335;
+  --color-orange-1100: #ffa94e;
+  --color-orange-1200: #fee0c6;
+
+  --color-gray-100: #232426;
+  --color-gray-200: #2a2b2d;
+  --color-gray-300: #323336;
+  --color-gray-400: #38383d;
+  --color-gray-500: #3d3e43;
+  --color-gray-600: #45464c;
+  --color-gray-700: #505159;
+  --color-gray-800: #676973;
+  --color-gray-900: #72747f;
+  --color-gray-1000: #7e808b;
+  --color-gray-1100: #b4b6bf;
+  --color-gray-1200: #eeeef0;
+}
+
+.btn {
+  @apply  text-orange-800 hover:text-orange-1000 cursor-pointer transition duration-100;
+}
